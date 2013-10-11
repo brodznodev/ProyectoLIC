@@ -1,0 +1,25 @@
+body {
+	background-color: #2E64FE;
+}
+
+.marco {
+	background-color: gray;
+	border: thin solid red;
+	width: 40%;
+}
+
+#img{
+width:200px;
+height: 200px;
+}
+
+.font {
+font-weight: bold;
+color: black;
+font-size: 10pt;
+}
+
+#buscador{
+margin-left: 900px;
+	
+	}

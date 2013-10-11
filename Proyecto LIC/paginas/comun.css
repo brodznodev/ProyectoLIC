@@ -1,0 +1,46 @@
+body{
+background-color: #FFFFCC;
+}
+
+h1{
+color: black;
+text-align: center;
+font-style: oblique;	
+}
+
+table{
+background-color: #CEECF5;
+width: auto;
+height: 850px;
+text-align: justify;
+margin-left: 250px;
+border-radius: 15px;
+padding: 15px;
+}
+
+caption{
+text-align: center;
+color: blue;
+font-size: 20pt;
+	
+}
+.td{
+text-align: center;
+font-size: 15pt;
+font-style: italic;
+font-weight: bold;
+}
+
+#td{
+color: #191970;
+font-style: inherit;
+}
+
+#img{
+width:100px;
+height: 100px;
+float: left;
+margin-top: 10px;
+margin-right: 50px;
+margin-left: 150px; 
+}

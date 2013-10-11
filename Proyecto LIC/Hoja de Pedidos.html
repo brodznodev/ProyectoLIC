@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Hoja de Pedido</title>
+<link rel="stylesheet" href="estilos/estilos.css"/>
+<script src="java/funciones.js"></script>
+<script src="java/validation.js"></script>
+</head>
+<body>
+<div class="displayg">
+<div id="maing">
+<div id="maing1">
+<br /><br />
+<div align="center" class="Estilo4">PRODUCTOS EN EL CARRITO</div>
+<hr />
+<form name="form"  action="mailto:mimail@gmail.com"  method="post" enctype="text/plain" onsubmit="validaciones()">
+<table width="750" border="1" align="center" cellpadding="10" cellspacing="1" bgcolor="white" style="font: 10pt Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<tbody>
+<tr style="font: bold" >
+<td width="50" bgcolor="#FF0000"><div align="center"><span class="Estilo5">&nbsp;Código&nbsp;</span></div></td>
+<td width="160" bgcolor="#FF0000"><div align="center"><span class="Estilo5">Nombre</span></div></td>
+<td width="100" bgcolor="#FF0000"><div align="center"><span class="Estilo5">&nbsp;Dolares &nbsp;&nbsp;</span></div></td>
+<td width="40" bgcolor="#FF0000"><div align="center"><span class="Estilo5">Cantidad</span></div></td>
+<td width="160" bgcolor="#FF0000"><div align="center"><span class="Estilo5">Compra </span></div></td>
+</tr>
+<script language=JavaScript>
+visualizarcarrito();
+</script>
+</tbody>
+</table>
+<br>
+<div align="center"><div class="marco">
+<br />
+<p class="Estilo4" ><strong>DATOS PERSONALES
+</strong>
+<div>
+<img src="images/Credit_cards.png" alt="Cards" width="60" height="60" />
+<table>
+<tr>
+	<td>Nombre:</td>
+	<td><input id="Nombre" type="text" name="Nombre" id="inputs"/></td>
+</tr>
+<tr>
+	<td>Apellido:</td>
+	<td><input id="Apellido" type="text" name="Apellido" id="inputs"/></td>
+</tr>
+<tr>
+	<td>Dirección</td>
+	<td><input id="Direccion" type="text" name="Dirección" id="inputs"></td>
+</tr>
+<tr>
+	<td>Teléfono:</td>
+	<td><input id="Telefono" type="text" name="Teléfono" id="inputs"></td>
+</tr>
+<tr>
+	<td>E-mail</td>
+	<td><input id="correo" type="text" name="email" id="inputs"></td>
+</tr>
+<tr>
+	<td>Tarjeta:</td>
+	<td><input id="tarjeta" type="text" name="Tarjeta" id="inputs"> </td>
+ </tr>
+ <tr>
+	<td>Vencimiento:</td>
+	<td><input type="text" name="Vence" id="inputs"></td>
+</tr>
+
+</table>
+
+  
+</div>
+</div>
+<div align="center" class="marco">
+<p>
+  <input type="SUBMIT" value="Enviar" id="boton">
+  <input type="submit" onclick="validaciones()" value="Validar Campos">
+  <input type="RESET" value="Borrar" id="boton">
+</p>
+<p class="Estilo6" >Gracias por su compra!</p>
+<p class="Estilo6" >
+<a href="Catalogo en Linea.html"><img src="images/back.png" width="64" height="64" /> </a> 
+<a href="principal.html"><img src="images/Home.png" width="64" height="64" /> </a> 
+</p>
+
+</div>
+</div>
+<br>
+
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

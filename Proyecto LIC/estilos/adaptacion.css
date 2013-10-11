@@ -1,0 +1,21 @@
+
+.displayg{
+display: inherit;	
+	}
+	
+table{
+	margin-left: auto;
+	margin-right: auto;
+		}
+	
+#main{
+float: left;
+width: 204;
+max-width: 300px;	
+	}
+	
+	#maing1{
+	margin-left: 21%;
+	width: 39%;
+	max-width: 3200px;
+	}
